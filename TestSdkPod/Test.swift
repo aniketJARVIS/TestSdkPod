@@ -9,7 +9,7 @@
 import Foundation
 
 public class Test {
-    class func test() -> String {
+    public class func test() -> String {
         return "Returning from Test"
     }
 }
