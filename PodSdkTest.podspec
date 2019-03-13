@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   OstSdk to empower application with blockchain and tokenize it.
                    DESC
 
-  # spec.homepage     = "http://EXAMPLE/PodSdkTest"
+  spec.homepage     = "https://google.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
