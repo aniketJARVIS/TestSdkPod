@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestSdkPod"
-  spec.version      = "1.3"
+  spec.version      = "1.3.1"
   spec.summary      = "A short description of TestSdkPod."
   spec.swift_version = "4.2"
 
@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source       = { :git => "https://github.com/aniketJARVIS/TestSdkPod.git", :tag => "1.2" }
-spec.source       = { :git => "https://github.com/aniketJARVIS/TestSdkPod.git", :tag => "1.3" }
+spec.source       = { :git => "https://github.com/aniketJARVIS/TestSdkPod.git", :tag => spec.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
