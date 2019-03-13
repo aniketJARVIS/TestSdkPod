@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestSdkPod"
-  spec.version      = "1.3.10-beta1"
+  spec.version      = "1.3.10-beta2"
   spec.summary      = "Simple test application for pod"
   spec.swift_version = "4.2"
 
