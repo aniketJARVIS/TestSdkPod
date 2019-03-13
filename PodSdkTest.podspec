@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint PodSdkTest.podspec' to ensure this is a
+#  Be sure to run `pod spec lint TestSdkPod.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PodSdkTest"
+  spec.name         = "TestSdkPod"
   spec.version      = "1.0"
-  spec.summary      = "A short description of PodSdkTest."
+  spec.summary      = "A short description of TestSdkPod."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
