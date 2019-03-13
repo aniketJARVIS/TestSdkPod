@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestSdkPod"
-  spec.version      = "1.0"
+  spec.version      = "1.3"
   spec.summary      = "A short description of TestSdkPod."
 
   # This description is used to generate tags and improve search results.
@@ -80,8 +80,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/aniketJARVIS/TestSdkPod.git", :tag => "1.2" }
-
+  # spec.source       = { :git => "https://github.com/aniketJARVIS/TestSdkPod.git", :tag => "1.2" }
+spec.source       = { :git => "https://github.com/aniketJARVIS/TestSdkPod.git", :branch => "master",
+                   :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
