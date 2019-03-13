@@ -1,15 +1,15 @@
 //
-//  PodSdkTestTests.swift
-//  PodSdkTestTests
+//  TestSdkPodTests.swift
+//  TestSdkPodTests
 //
 //  Created by aniket ayachit on 13/03/19.
 //  Copyright © 2019 aniket ayachit. All rights reserved.
 //
 
 import XCTest
-@testable import PodSdkTest
+@testable import TestSdkPod
 
-class PodSdkTestTests: XCTestCase {
+class TestSdkPodTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
