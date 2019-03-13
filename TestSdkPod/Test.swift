@@ -10,7 +10,7 @@ import Foundation
 import BigInt
 
 public class Test {
-    class func test() -> String {
+    public class func test() -> String {
         let bigInt = BigInt(10)
         return "Returning from Test - \(bigInt.description)"
     }
