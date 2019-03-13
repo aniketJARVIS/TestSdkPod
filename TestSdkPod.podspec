@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TestSdkPod"
   spec.version      = "1.3.8"
-  spec.summary      = "A short description of TestSdkPod."
+  spec.summary      = "Simple test application for pod"
   spec.swift_version = "4.2"
 
   # This description is used to generate tags and improve search results.
