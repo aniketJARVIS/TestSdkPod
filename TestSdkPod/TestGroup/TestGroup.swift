@@ -12,4 +12,8 @@ public class TestGroup {
     public class func funcTestGroup() -> String {
         return "returning from TestGroup :: funcTestGroup"
     }
+    
+    public class func getHiddenFileContent() -> String {
+        return HiddenFile.hiddenFile()
+    }
 }

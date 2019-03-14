@@ -12,6 +12,8 @@
 		4B7FCBD922392231000015E1 /* TestSdkPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7FCBCB22392231000015E1 /* TestSdkPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B7FCBE32239223A000015E1 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FCBE22239223A000015E1 /* Test.swift */; };
 		4B7FCC45223A6CF7000015E1 /* TestGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FCC44223A6CF7000015E1 /* TestGroup.swift */; };
+		4B7FCC48223A7091000015E1 /* TestWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FCC47223A7091000015E1 /* TestWorkflow.swift */; };
+		4B7FCC4B223A70B3000015E1 /* HiddenFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FCC4A223A70B3000015E1 /* HiddenFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		4B7FCBD822392231000015E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B7FCBE22239223A000015E1 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		4B7FCC44223A6CF7000015E1 /* TestGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGroup.swift; sourceTree = "<group>"; };
+		4B7FCC47223A7091000015E1 /* TestWorkflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWorkflow.swift; sourceTree = "<group>"; };
+		4B7FCC4A223A70B3000015E1 /* HiddenFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +100,27 @@
 		4B7FCC43223A6CEA000015E1 /* TestGroup */ = {
 			isa = PBXGroup;
 			children = (
+				4B7FCC49223A70A3000015E1 /* HiddenGroup */,
+				4B7FCC46223A707B000015E1 /* Workflow */,
 				4B7FCC44223A6CF7000015E1 /* TestGroup.swift */,
 			);
 			path = TestGroup;
+			sourceTree = "<group>";
+		};
+		4B7FCC46223A707B000015E1 /* Workflow */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FCC47223A7091000015E1 /* TestWorkflow.swift */,
+			);
+			path = Workflow;
+			sourceTree = "<group>";
+		};
+		4B7FCC49223A70A3000015E1 /* HiddenGroup */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FCC4A223A70B3000015E1 /* HiddenFile.swift */,
+			);
+			path = HiddenGroup;
 			sourceTree = "<group>";
 		};
 		B2567BBDAD5A392AED089185 /* Frameworks */ = {
@@ -218,7 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B7FCBE32239223A000015E1 /* Test.swift in Sources */,
+				4B7FCC48223A7091000015E1 /* TestWorkflow.swift in Sources */,
 				4B7FCC45223A6CF7000015E1 /* TestGroup.swift in Sources */,
+				4B7FCC4B223A70B3000015E1 /* HiddenFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
