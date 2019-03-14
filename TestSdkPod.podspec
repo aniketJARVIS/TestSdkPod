@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestSdkPod"
-  spec.version      = "1.3.10-beta4"
+  spec.version      = "1.3.10-beta6"
   spec.summary      = "Simple test application for pod"
   spec.swift_version = "4.2"
 
@@ -92,12 +92,10 @@ spec.source       = { :git => "https://github.com/aniketJARVIS/TestSdkPod.git", 
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'TestSdkPod/*.swift'
-  spec.source_files  = 'TestSdkPod/TestGroup/*.swift'
-  spec.source_files  = 'TestSdkPod/TestGroup/Workflow/*.swift'
+  spec.source_files  = 'TestSdkPod/**/*.{h,swift}'
   # spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "TestSdkPod/Source/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
