@@ -62,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				4B7FCBCA22392231000015E1 /* TestSdkPod */,
+				4B7FCBCC22392231000015E1 /* Info.plist */,
 				4B7FCBD522392231000015E1 /* TestSdkPodTests */,
 				4B7FCBC922392231000015E1 /* Products */,
 				B2567BBDAD5A392AED089185 /* Frameworks */,
@@ -80,10 +81,8 @@
 		4B7FCBCA22392231000015E1 /* TestSdkPod */ = {
 			isa = PBXGroup;
 			children = (
+				4B7FCC4C223A7371000015E1 /* Source */,
 				4B7FCC43223A6CEA000015E1 /* TestGroup */,
-				4B7FCBCB22392231000015E1 /* TestSdkPod.h */,
-				4B7FCBCC22392231000015E1 /* Info.plist */,
-				4B7FCBE22239223A000015E1 /* Test.swift */,
 			);
 			path = TestSdkPod;
 			sourceTree = "<group>";
@@ -101,8 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				4B7FCC49223A70A3000015E1 /* HiddenGroup */,
-				4B7FCC46223A707B000015E1 /* Workflow */,
-				4B7FCC44223A6CF7000015E1 /* TestGroup.swift */,
 			);
 			path = TestGroup;
 			sourceTree = "<group>";
@@ -121,6 +118,17 @@
 				4B7FCC4A223A70B3000015E1 /* HiddenFile.swift */,
 			);
 			path = HiddenGroup;
+			sourceTree = "<group>";
+		};
+		4B7FCC4C223A7371000015E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FCC46223A707B000015E1 /* Workflow */,
+				4B7FCBE22239223A000015E1 /* Test.swift */,
+				4B7FCC44223A6CF7000015E1 /* TestGroup.swift */,
+				4B7FCBCB22392231000015E1 /* TestSdkPod.h */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		B2567BBDAD5A392AED089185 /* Frameworks */ = {
