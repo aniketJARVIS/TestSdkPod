@@ -7,11 +7,11 @@
 //
 
 import Foundation
-import BigInt
+//import BigInt
 
 public class Test {
     public class func test() -> String {
-        let bigInt = BigInt(10)
-        return "Returning from Test - \(bigInt.description)"
+//        let bigInt = BigInt(10)
+        return "Returning from Test"
     }
 }
